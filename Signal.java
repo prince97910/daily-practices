@@ -1,16 +1,16 @@
 class yellow implements red,green
 {
-	void r1()
+	public void r1()
 	{
 		System.out.println("colour of signal is red");
 	}
 	
-	void g1()
+	public void g1()
 	{
 		System.out.print("colour of signal is green");
 	}
 	
-	void y1()
+	public void y1()
 	{
 		System.out.print("colour of signal is yellow"); 
 	}
