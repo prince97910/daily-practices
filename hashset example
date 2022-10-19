@@ -1,0 +1,24 @@
+package prince;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class hashsetdemo
+{
+	public static void main(String[] args)
+	{
+	HashSet<String> hs=new HashSet<String>();
+	hs.add("raja");
+	hs.add("raj");
+	hs.add("queen");
+	hs.add("minister");
+	Iterator<String> it=hs.iterator();
+	while(it.hasNext())
+	{
+		System.out.println("implementation of hashset "+it.next());
+	}
+	
+
+}
+
+}
