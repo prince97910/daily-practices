@@ -27,3 +27,38 @@ public class login {
 		
 	}
 }
+public class Bookflight {
+	int bookid;
+	int flightid;
+	String type;
+	String dateofjounrey;
+	String dateofbooking;
+	int numberofadults;
+	int numberofchilds;
+	char gender;
+	double ticketfare; 
+	int customerid;
+
+	public Bookflight(int bookid,
+	int flightid,
+	String type,
+	String dateofjounrey,
+	String dateofbooking,
+	int numberofadults,
+	int numberofchilds,
+	char gender,
+	double ticketfare,
+	int customerid) {
+		this.bookid=bookid;
+		this.flightid=flightid;
+		this.type=type;
+		this.dateofjounrey=dateofjounrey;
+		this.dateofbooking=dateofbooking;
+		this.numberofadults=numberofadults;
+		this.numberofchilds=numberofchilds;
+		this.gender=gender;
+		this.ticketfare=ticketfare; 
+		this.customerid=customerid;
+	}
+
+}
