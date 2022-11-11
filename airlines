@@ -1,0 +1,29 @@
+package airlines;
+
+import java.util.Scanner;
+
+public class login {
+
+	public login(int userid, String password) 
+	{
+		if(userid==1234)
+		{
+			System.out.println("WElcome to prince airline");
+		}
+		else
+		{
+			System.out.println("please enter valid login detail");
+		}
+		
+	
+	}
+	public static void main(String args[])
+	{
+		int n ;
+		Scanner sc=new Scanner(System.in);
+		System.out.print("Enter the join details");
+		n=sc.nextInt();
+		login l=new login(n," a");
+		
+	}
+}
