@@ -1,0 +1,21 @@
+class Main {
+  public static void main(String[] args) {
+    String str1 = "prince";
+
+    // extract substring from index 0 to 3
+   String a=str1.substring(0, 1);
+    String b=str1.substring(2, 3);
+    String c=str1.substring(4, 5);
+    System.out.print(a);
+    System.out.print(b);
+    System.out.println(c);
+    String d=a+b+c;
+    System.out.println(d);
+    String e=str1.substring(1,2);
+    String f=str1.substring(3,4);
+    String g=str1.substring(5,6);
+    System.out.print(e);
+    System.out.print(f);
+    System.out.print(g);
+  }
+}
