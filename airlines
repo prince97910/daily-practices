@@ -39,15 +39,7 @@ public class Bookflight {
 	double ticketfare; 
 	int customerid;
 
-	public Bookflight(int bookid,
-	int flightid,
-	String type,
-	String dateofjounrey,
-	String dateofbooking,
-	int numberofadults,
-	int numberofchilds,
-	char gender,
-	double ticketfare,
+	public Bookflight(int bookid,int flightid,String type,String dateofjounrey,String dateofbooking,int numberofadults,int numberofchilds,char gender,double ticketfare,
 	int customerid) {
 		this.bookid=bookid;
 		this.flightid=flightid;
@@ -61,4 +53,9 @@ public class Bookflight {
 		this.customerid=customerid;
 	}
 
+}
+class fight{
+public static void main(String args[])
+List<Bookflight> l=new ArrayList<Bookflight>();
+l.add(12345,5555,"ecpnpmy","12/5/2022","11/5/2022",2,0,'m',25000,1234);
 }
